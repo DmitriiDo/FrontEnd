@@ -1,0 +1,38 @@
+:root {
+    --root-bg: #fff;
+    --text-color: #000;
+    --primary-color: #1746C1;
+    --primary-color__hover: hsl(from var(--primary-color) h s calc(l - 10));
+
+    --header-bg: #1746C1;
+    --header-color: #fff;
+
+    --card-bg: #fff;
+    --card-border-color: #000;
+    --card-text: #000;
+
+    --primary-btn-bg: var(--primary-color);
+    --primary-btn-bg--hover: var(--primary-color__hover);
+    --primary-btn-border: var(--primary-color);
+    --primary-btn-border--hover: var(--primary-color__hover);
+    --primary-btn-color: #fff;
+    --primary-btn-color--hover: #fff;
+
+    --search-bg: var(--primary-color);
+    --search-bg--hover: var(--primary-color__hover);
+    --search-border: var(--primary-color);
+    --search-border--hover: var(--primary-color__hover);
+    --search-color: #fff;
+    --search-color--hover: #fff;
+}
+
+body {
+    color: var(--text-color) !important;
+    background: var(--root-bg) !important;
+}
+
+.wrapper {
+    color: var(--text-color);
+    background: var(--root-bg);
+    min-height: 100vh;
+}

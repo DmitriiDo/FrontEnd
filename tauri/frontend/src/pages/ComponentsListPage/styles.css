@@ -1,0 +1,32 @@
+
+.btn.btn-primary {
+    background-color: var(--primary-btn-bg) !important;
+    border-color: var(--primary-btn-border) !important;
+    color: var(--primary-btn-color) !important;
+}
+
+.btn.btn-primary:hover {
+    background-color: var(--primary-btn-bg--hover) !important;
+    border-color: var(--primary-btn-border--hover) !important;
+    color: var(--primary-btn-color--hover) !important;
+}
+
+.search-btn.btn.btn-primary {
+    background-color: var(--search-bg) !important;
+    border-color: var(--search-border) !important;
+    color: var(--search-color) !important;
+}
+
+.search-btn.btn.btn-primary:hover {
+    background-color: var(--search-bg--hover) !important;
+    border-color: var(--search-border--hover) !important;
+    color: var(--search-color--hover) !important;
+}
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.card {
+    background: var(--card-bg) !important;
+    color: var(--card-text) !important;
+}
